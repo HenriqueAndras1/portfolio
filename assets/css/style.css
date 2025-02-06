@@ -86,17 +86,12 @@ p{
     background-color: var(--purple-800);
     border-bottom: 1px solid var(--purple-500);
 }
- 
- #menu li {
+
+ #menu{
     display: inline;
     padding: 1rem;
 
  }
- 
- 
- 
-
-
   /* Estilização da Seção About */
 
   #about{
@@ -108,7 +103,6 @@ p{
 #conteudo{
     flex-direction: row;
     gap: 2rem;
-
 }
 
 .img_profile{
@@ -116,7 +110,6 @@ p{
 }
 
 /* Estilização da Seção Video */
-
 #video{
     flex-direction: column;
     margin: 2rem auto;
@@ -124,11 +117,10 @@ p{
  }
 
  /* Estilização da Seção Footer */
-
 footer{
     flex-direction: column;
     margin: 0;
-    padding: 2rem;
+    padding: 1rem;
     color: var(--white);
     background-color: var(--purple-500);
     font-weight: bold;
@@ -230,6 +222,7 @@ form button:hover {
     width: 480px;
     flex-direction: column;
     gap: 3rem;
+    margin: 2rem;
 }
 
 #endereco > p{
