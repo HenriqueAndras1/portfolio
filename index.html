@@ -7,12 +7,13 @@
 		<meta name="author" content="Generation Brasil" />
 		<meta name="keywords" content="HTML, CSS, JavaScript" />
 		 <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+         <link rel="stylesheet" href="style.css">
 		<title>Meu Perfil</title>
 	</head>
 	<body>
 		<!-- Cabeçalho da Página (header) -->
 		<header>
-            <div id="heander_content">
+            <div id="header_content" class="flex"> 
 
                 <div id="titulo">
                     <h1>Henrique Silva</h1>
@@ -41,14 +42,18 @@
 		<main>
 
             <!-- Seção Sobre mim -->
-			<section id="about">
+			<section id="about" class="flex_start">
                 <h2>Sobre Henrique Silva</h2>
 
                 <!-- Conteudo da seção-->
-                <div id="conteudo">
-                    <img src="/assets/img/user_01.svg" alt="Foto do criando desse conteudo">
+                <div id="conteudo" class="flex">
+                    <img src="assets/img/user_01.svg" alt="Foto do criando desse conteudo"
+                    class="img_profile">
 
                     <article id="sobre_texto">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptates earum quam atque eligendi dignissimos, cupiditate dolor eos assumenda adipisci! Facilis laborum quidem quibusdam rerum similique ex culpa eius beatae!
+                        </p>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptates earum quam atque eligendi dignissimos, cupiditate dolor eos assumenda adipisci! Facilis laborum quidem quibusdam rerum similique ex culpa eius beatae!
                         </p>
@@ -57,10 +62,10 @@
 			 </section>
 			 
 			 <!-- Seção contendo um vídeo-->
-			 <section id="video">
+			 <section id="video" class="flex_start">
                 <h2>Meu Video Favorito</h2>
 
-                <div id="youtube">
+                <div id="youtube" class="flex">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/PQRdQ5buFuo?si=iHQN3NrRWxu1g214" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 	 
@@ -69,7 +74,7 @@
         </main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
             <section id="redes_sociais">
                 <a href="https://www.linkedin.com/in/henriquesilvaaa/">
                     <img src="assets/img/linkedin.svg" alt="LinkedIb">
